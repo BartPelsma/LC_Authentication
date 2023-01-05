@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["LC_Authentication/LC_Authentication.csproj", "LC_Authentication/"]
 RUN dotnet restore "LC_Authentication/LC_Authentication.csproj"
 COPY . .
-WORKDIR "/src/LC_Backend/"
+WORKDIR "/src/LC_Authentication/"
 RUN dotnet build "LC_Authentication.csproj" -c Release -o /app/build
 
 FROM build AS publish
