@@ -5,7 +5,12 @@
       "ProjectGuid": "ad65d0b3-f8f2-4891-8dcd-c302a36df364",
       "DisplayName": "LC_Authentication",
       "ColorIndex": 0
+    },
+    "d9d3f960-d7e9-4849-95b0-be5b003c7d09": {
+      "ProjectGuid": "d9d3f960-d7e9-4849-95b0-be5b003c7d09",
+      "DisplayName": "LC_Authentication.tests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
